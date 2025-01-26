@@ -92,8 +92,8 @@ form{
     border-radius: 5px;
 }
 @media screen and (max-width:768px) {
-    .search-results{
-        padding: 20px;
+    body{
+        padding: 25px;
     }
     .search-result{
         width: 45px;
@@ -103,5 +103,9 @@ form{
 @media screen and (max-width: 480px) {
     .search-result{
         width: 100%;
+    }
+    .search-input{
+        width: 100%;
+        padding: 20px;
     }
 }
